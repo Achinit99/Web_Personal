@@ -1,0 +1,28 @@
+body{
+    margin: 0;
+}
+.top-container{
+    background-color: rgb(252, 237, 26);
+    width: 200px;
+    height: 200px;
+    position: relative;
+    border: solid 10px;
+}
+
+.middle-container{ 
+    background-color: blue;
+    width: 200px;
+    height: 200px;
+    position: relative;
+    margin-left: 13.7rem;
+    border: solid 20px;
+}
+
+.bottom-container{
+    background-color: rgb(252, 23, 23);
+    width: 200px;
+    height: 200px;
+    position: relative;
+    margin-left: 28.6rem;
+    border: solid 10px;
+}
