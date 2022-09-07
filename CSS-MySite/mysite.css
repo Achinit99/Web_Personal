@@ -13,10 +13,45 @@ h1{
     font-family:'Sacramento', cursive;
 }
 
-h2{
+h2{ 
     color: rgb(54, 168, 230);
-    font-size: 1.7rem;
+    font-size: 1.9rem;
+    padding-bottom: 20px;
+}
+
+h3{
+    color: rgb(106, 148, 170);
+    font-size: 1.3rem;
     
+}
+
+p{
+    line-height: 2;
+}
+
+hr{
+    border: dotted rgb(54, 168, 230) 6px;
+    border-bottom: none;
+    width: 4%;
+    margin: 100px auto;
+}
+
+a{
+    color: rgb(76, 90, 97);
+    font-size: 1.3rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 20px 10px;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #caebff;
+}
+
+.footer{
+    font-size: 1.3rem;
+    font-family: monospace;
+    padding: 12px 0;
 }
 
 .top-container{
@@ -27,34 +62,46 @@ h2{
 }
 
 .middle-container{  
-    
+    margin: 10px 0;
 }
 
 .bottom-container{
-   
+   background-color: rgb(106, 148, 170);
+   padding: 60px 0 20px;
+   margin-top: 80px;
 }
 
 .skill-row{
     width: 50%;
     margin: 100px auto 100px auto;
     text-align: left;
-    line-height: 1.7;
+   
 }
 
 .pro{
     text-decoration: underline;
 }
 
+.intro{
+    width: 30%;
+    margin: auto;
+}
+
+.contact-message{
+    width: 40%;
+    margin: 40px auto 60px;
+}
+
 .top-cloud{
     position: absolute;
-    right: 300px;
-    top: 50px;
+    right: 230px;
+    top: 100px;
 }
 
 .bottom-cloud{
     position: absolute;
-    left: 200px;
-    bottom: 460px;
+    left: 230px;
+    bottom: 0;
 }
 
 .git-img{
@@ -68,3 +115,31 @@ h2{
     float: right;
     margin-left: 40px;
 }
+
+.btn {
+    background: #0f649c;
+    background-image: -webkit-linear-gradient(top, #0f649c, #089bf0);
+    background-image: -moz-linear-gradient(top, #0f649c, #089bf0);
+    background-image: -ms-linear-gradient(top, #0f649c, #089bf0);
+    background-image: -o-linear-gradient(top, #0f649c, #089bf0);
+    background-image: linear-gradient(to bottom, #0f649c, #089bf0);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: 'Segoe UI', Tahoma, Geneva;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #0da6ff;
+    background-image: -webkit-linear-gradient(top, #0da6ff, #009dff);
+    background-image: -moz-linear-gradient(top, #0da6ff, #009dff);
+    background-image: -ms-linear-gradient(top, #0da6ff, #009dff);
+    background-image: -o-linear-gradient(top, #0da6ff, #009dff);
+    background-image: linear-gradient(to bottom, #0da6ff, #009dff);
+    text-decoration: none;
+  }
+  
