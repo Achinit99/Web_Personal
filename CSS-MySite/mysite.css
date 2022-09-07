@@ -2,19 +2,25 @@ body{
     margin: 0;
     text-align: center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(246, 250, 252);
+    background-color: black;
 }
 
 h1{
-    margin-top: 0;
-    font-size: 45px;
+    color: rgb(246, 250, 252);
+    margin-top: 50px;
+    font-size: 4rem;
+    font-family:'Sacramento', cursive;
 }
 
-p{
-    font-size: 22px;
+h2{
+    color: rgb(54, 168, 230);
+    font-size: 1.7rem;
+    
 }
 
 .top-container{
-    background-color: rgb(47, 206, 235);
+    background-color: black;
     position: relative;
     padding-top: 200px;
     padding-bottom: 70px;
@@ -27,6 +33,14 @@ p{
 .bottom-container{
    
 }
+
+.skill-row{
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+    line-height: 1.7;
+}
+
 .pro{
     text-decoration: underline;
 }
@@ -39,6 +53,18 @@ p{
 
 .bottom-cloud{
     position: absolute;
-    left: 300px;
-    bottom: 300px;
+    left: 200px;
+    bottom: 460px;
+}
+
+.git-img{
+    width: 25%;
+    float: left;
+    margin-right: 40px;
+}
+
+.figma-img{
+    width: 25%;
+    float: right;
+    margin-left: 40px;
 }
